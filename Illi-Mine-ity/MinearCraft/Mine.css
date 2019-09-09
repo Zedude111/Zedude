@@ -1,0 +1,58 @@
+.JavaE{
+    font-size: 45px;
+    font-family: Minecraftia;
+    color: blue;
+}
+.Mine-age{
+    border: 2px gray;
+    margin-bottom: 8px;
+    border-radius: 3px;
+    padding: 8px;
+    font-family: Minecraftia;
+    background-color: rgba(87, 87, 87, 0.103);
+}
+input{
+    border: none;
+    font-family: minecraftia;
+    outline: none;
+    font-size: 15px;
+    width: 1000%;
+
+}
+.Craft{
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+    background-color: blue;
+    padding: 8px;
+    outline: none;
+    border: none;
+    color: white;
+}
+.Craft:active{
+    background-color: white;
+    color: black
+}
+.Craft:hover{
+    background-color: rgb(57, 57, 255);
+}
+.Notch{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+}
+.Microsoft{
+    max-width: 70vh;
+    padding: 32px;
+    box-shadow: 0px 1px 3px gray;
+    display: flex;
+    flex-direction: column;
+    margin: 32px auto;
+    height: 700px;
+}
+.Chest{
+    overflow-y: scroll;
+}
+body{
+    margin: none;
+    background-image: url(../Mine.jpg)
+}
